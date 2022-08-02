@@ -1,0 +1,29 @@
+//
+// Gnome Software
+//
+
+flowboxchild > button.card {
+  box-shadow: none;
+
+  .large-icons {
+    -gtk-icon-size: 32px;
+  }
+
+  &.category-work {
+    background-color: $yellow;
+    color: on($yellow);
+  }
+
+  &.category-develop {
+    background-color: $grey-lightest;
+    color: on($grey-lightest);
+  }
+
+  &.category-tile {
+    padding: $container-padding * 3.5;
+  }
+
+  &.category-tile-iconless {
+    padding: $container-padding * 1.5 $container-padding * 2.5;
+  }
+}
