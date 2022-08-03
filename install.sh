@@ -177,6 +177,8 @@ while [[ "$#" -gt 0 ]]; do
   esac
 done
 
+blackness="true"
+
 if [[ "${#themes[@]}" -eq 0 ]]; then
   themes=("${THEME_VARIANTS[0]}")
 fi

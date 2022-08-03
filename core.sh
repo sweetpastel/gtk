@@ -1,3 +1,5 @@
+# Do not edit if you don't know what your doing
+
 REPO_DIR="$(dirname "$(readlink -m "${0}")")"
 SRC_DIR="$REPO_DIR/src"
 
@@ -15,12 +17,12 @@ SASSC_OPT="-M -t expanded"
 
 THEME_NAME=SweetPastel
 THEME_VARIANTS=('')
-COLOR_VARIANTS=('' '-Dark')
+COLOR_VARIANTS=('' '-Light' '-Dark')
 SIZE_VARIANTS=('' '-Compact')
 
 # Old name variants
 OLD_THEME_VARIANTS=('')
-OLD_COLOR_VARIANTS=('' '-dark')
+OLD_COLOR_VARIANTS=('' '-light' '-dark')
 OLD_SIZE_VARIANTS=('' '-compact')
 
 # Check command availability
@@ -41,22 +43,21 @@ install () {
 
   [[ -d "$THEME_DIR" ]] && rm -rf "${THEME_DIR:?}"
 
-  theme_tweaks && install_theme_color
+  theme_tweaks
 
   echo "Installing '$THEME_DIR'..."
 
   mkdir -p "$THEME_DIR"
-  cp -r "$REPO_DIR/COPYING" "$THEME_DIR"
 
   echo "[Desktop Entry]" >>"$THEME_DIR/index.theme"
   echo "Type=X-GNOME-Metatheme" >>"$THEME_DIR/index.theme"
-  echo "Name=$name$theme$size" >>"$THEME_DIR/index.theme"
+  echo "Name=$name$size" >>"$THEME_DIR/index.theme"
   echo "Comment=An Materia Gtk+ theme based on Elegant Design" >>"$THEME_DIR/index.theme"
   echo "Encoding=UTF-8" >>"$THEME_DIR/index.theme"
   echo "" >>"$THEME_DIR/index.theme"
   echo "[X-GNOME-Metatheme]" >>"$THEME_DIR/index.theme"
-  echo "GtkTheme=$name$theme$size" >>"$THEME_DIR/index.theme"
-  echo "MetacityTheme=$name$theme$size" >>"$THEME_DIR/index.theme"
+  echo "GtkTheme=$name$size" >>"$THEME_DIR/index.theme"
+  echo "MetacityTheme=$name$size" >>"$THEME_DIR/index.theme"
   echo "IconTheme=Tela-circle" >>"$THEME_DIR/index.theme"
   echo "CursorTheme=Vimix" >>"$THEME_DIR/index.theme"
   echo "ButtonLayout=close,minimize,maximize:menu" >>"$THEME_DIR/index.theme"
@@ -145,7 +146,7 @@ uninstall () {
   local color="$4"
   local size="$5"
 
-  local THEME_DIR="$dest/$name$theme$size"
+  local THEME_DIR="$dest/$name$size"
 
   [[ -d "$THEME_DIR" ]] && rm -rf "$THEME_DIR" && echo -e "Uninstalling "$THEME_DIR" ..."
 }
@@ -232,14 +233,6 @@ install_solid () {
 install_black () {
   sed -i "/\$blackness:/s/false/true/" ${SRC_DIR}/gnome-shell/sass/_tweaks-temp.scss
   sed -i "/\$blackness:/s/false/true/" ${SRC_DIR}/_sass/_tweaks-temp.scss
-  echo -e "Install black version ..."
-}
-
-install_theme_color() {
-  if [[ "$theme" != '' ]]; then
-    sed -i "/\$theme:/s/default/${theme_color}/" ${SRC_DIR}/gnome-shell/sass/_tweaks-temp.scss
-    sed -i "/\$theme:/s/default/${theme_color}/" ${SRC_DIR}/_sass/_tweaks-temp.scss
-  fi
 }
 
 theme_tweaks () {

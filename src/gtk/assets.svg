@@ -5,8 +5,8 @@
    version="1.1"
    viewBox="0 0 400 200"
    id="svg200"
-   sodipodi:docname="assets.svg"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="assets-Pink.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -14,22 +14,24 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview202"
-     pagecolor="#1B1F23"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="2.3582011"
-     inkscape:cx="394.58043"
-     inkscape:cy="216.69059"
-     inkscape:window-width="1484"
-     inkscape:window-height="974"
-     inkscape:window-x="396"
-     inkscape:window-y="145"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg200" />
+     inkscape:zoom="1.6675"
+     inkscape:cx="214.09295"
+     inkscape:cy="97.751124"
+     inkscape:window-width="1280"
+     inkscape:window-height="732"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="selectionmode-checkbox-checked-dark"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs83">
     <linearGradient
@@ -54,15 +56,14 @@
        gradientTransform="scale(1.1453 .87314)"
        gradientUnits="userSpaceOnUse">
       <stop
-         stop-color="#000000"
-         stop-opacity=".87"
+         stop-color="#1B1F23"
          offset="1"
-         id="stop5" />
+         id="stop2" />
     </linearGradient>
     <linearGradient
        id="color-text-secondary-disabled">
       <stop
-         stop-color="#000000"
+         stop-color="#4B4F53"
          stop-opacity=".26"
          offset="1"
          id="stop8" />
@@ -70,7 +71,7 @@
     <linearGradient
        id="color-text-secondary-disabled-dark">
       <stop
-         stop-color="#1B1F23"
+         stop-color="#4B4F53"
          stop-opacity=".3"
          offset="1"
          id="stop11" />
@@ -108,7 +109,7 @@
        x2="40"
        gradientUnits="userSpaceOnUse">
       <stop
-         stop-color="#1B1F23"
+         stop-color="#161A1E"
          offset="1"
          id="stop26" />
     </linearGradient>
@@ -117,7 +118,7 @@
        x2="40"
        gradientUnits="userSpaceOnUse">
       <stop
-         stop-color="#3C3C3C"
+         stop-color="#161A1E"
          offset="1"
          id="stop29" />
     </linearGradient>
@@ -681,14 +682,15 @@
        y="233"
        width="120"
        height="54"
-       fill="#1B1F23"
+       fill="url(#linearGradient1064)"
+       opacity=".08"
        style="paint-order:stroke fill markers"
-       id="rect185" />
+       id="rect190" />
     <path
        d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z"
        fill="#1B1F23"
        style="paint-order:stroke fill markers"
-       id="path187" />
+       id="path192" />
   </g>
   <g
      id="row-selected-dark"
@@ -716,15 +718,15 @@
        y="233"
        width="120"
        height="54"
-       fill="url(#linearGradient1066)"
+       fill="url(#linearGradient1064)"
        opacity=".08"
        style="paint-order:stroke fill markers"
-       id="rect195" />
+       id="rect190" />
     <path
        d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z"
        fill="#1B1F23"
        style="paint-order:stroke fill markers"
-       id="path197" />
+       id="path192" />
   </g>
   <g
      id="row-selected-blackness-dark"
@@ -735,14 +737,14 @@
        width="120"
        height="54"
        fill="url(#linearGradient1064)"
-       opacity="0.08"
-       style="fill:url(#linearGradient210);paint-order:stroke fill markers"
-       id="rect204" />
+       opacity=".08"
+       style="paint-order:stroke fill markers"
+       id="rect190" />
     <path
-       d="m 192,233 c 0,4.986 -4.014,9 -9,9 H 90 c -9.972,0 -18,8.028 -18,18 0,9.972 8.028,18 18,18 h 93 c 4.986,0 9,4.014 9,9 v -45 z"
+       d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z"
        fill="#1B1F23"
-       style="paint-order:stroke fill markers;fill:#0f0f0f;fill-opacity:1"
-       id="path206" />
+       style="paint-order:stroke fill markers"
+       id="path192" />
   </g>
   <g
      id="row-selected-blackness"
@@ -752,13 +754,14 @@
        y="233"
        width="120"
        height="54"
-       fill="#1B1F23"
-       style="paint-order:stroke fill markers;fill:#0f0f0f;fill-opacity:1"
-       id="rect956" />
+       fill="url(#linearGradient1064)"
+       opacity=".08"
+       style="paint-order:stroke fill markers"
+       id="rect190" />
     <path
-       d="m 192,233 c 0,4.986 -4.014,9 -9,9 H 90 c -9.972,0 -18,8.028 -18,18 0,9.972 8.028,18 18,18 h 93 c 4.986,0 9,4.014 9,9 v -45 z"
+       d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z"
        fill="#1B1F23"
        style="paint-order:stroke fill markers"
-       id="path958" />
+       id="path192" />
   </g>
 </svg>
