@@ -219,7 +219,7 @@ change_radio_color () {
   echo "Change radio color ..."
 }
 
-install_compact_pane () {
+install_compact_panel () {
   sed -i "/\$panel_style:/s/float/compact/" ${SRC_DIR}/gnome-shell/sass/_tweaks-temp.scss
   echo -e "Install compact panel version ..."
 }
