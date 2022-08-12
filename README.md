@@ -1,5 +1,5 @@
 # GTK
-A modified version and a fork of [Orchis Theme](https://github.com/vinceliuice/Orchis-theme) with **SweetPastel** colors
+A modified version of [Orchis Theme](https://github.com/vinceliuice/Orchis-theme) with **SweetPastel** colors
 
 ![image](https://user-images.githubusercontent.com/65948476/184318222-f90cac34-37bb-4ccf-8fb6-eb82d73fcede.png)
 
