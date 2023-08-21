@@ -45,7 +45,7 @@ OPTIONS:
 
 ## notice
 
-a rewrite in progress make it easier to update the thme
+a rewrite in progress make it easier to update the theme
 
 ### flatpak
 
