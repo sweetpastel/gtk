@@ -1,23 +1,25 @@
-# GTK
-A modified version of [Orchis Theme](https://github.com/vinceliuice/Orchis-theme) with **SweetPastel** colors
+# gtk
+gtk themed with **sweetpastel**
+
+a modified version of [Orchis Theme](https://github.com/vinceliuice/Orchis-theme) with **sweetpastel** colors
 
 ![image](https://user-images.githubusercontent.com/65948476/184318222-f90cac34-37bb-4ccf-8fb6-eb82d73fcede.png)
 
-## Installation
+## installation
 
-1. Clone or Download this repo and go to the repo's directory
+1. clone this repository
 
 ```sh
-git clone https://github.com/SweetPastel/GTK.git && cd GTK
+git clone https://github.com/sweetpastel/gtk.git && cd gtk
 ```
 
-2. Run ``install.sh``
+2. run ``install.sh``
 
 ```sh
 ./install.sh -l
 ```
 
-> You can also run ``install.sh -h`` to see other options
+> you can also run ``install.sh -h`` to see other options
 
 ```sh
 Usage: ./install.sh [OPTION]...
@@ -41,15 +43,19 @@ OPTIONS:
   -h, --help              Show help
 ```
 
-### Flatpak
+## notice
 
-WIP
+a rewrite in progress make it easier to update the thme
 
-### Snap 
+### flatpak
 
-WIP
+wip
 
-## Screenshots
+### snap
+
+wip
+
+## screenshots
 
 <details>
 <summary><b><samp>GTK 3</samp></b></summary>
@@ -75,6 +81,6 @@ WIP
  
 </details>
 
-## Acknowledgements
+## acknowledgements
   
-  - Thanks to [``vinceliuice``](https://github.com/vinceliuice) - For making the **Orchis Theme** and for her awesome themes
+  - thanks to [``vinceliuice``](https://github.com/vinceliuice) for making the **Orchis Theme** and for her awesome themes
